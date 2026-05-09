@@ -1,0 +1,14 @@
+name: torchani-vibrations-demo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - numpy>=2
+  - matplotlib>=3.9
+  - ase>=3.25
+  - jupyterlab
+  - pip
+  - pip:
+      - torch>=2.5
+      - torchani>=2.7
+      - py3Dmol>=2.4
